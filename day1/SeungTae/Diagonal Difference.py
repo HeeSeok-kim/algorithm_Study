@@ -38,7 +38,7 @@ def diag(arr):
                 sum2 += arr[i][j]
             if arr[i][j] < -100 or arr[i][j] > 100:
                 return None
-    return sum1 + sum2
+    return abs(sum1 + sum2)
 
 k = diag(arr1)
 print(k)
