@@ -16,3 +16,5 @@ def timeConversion(s):
     print(s)
 
 timeConversion(s)
+
+# 인텔리제이 깃 연동
