@@ -27,5 +27,3 @@ def timeConversion(s):
 
 print(timeConversion(s))
 
-# 인텔리제이 깃 연동
-# 오류 이유 : am 12시가 00시이다.
