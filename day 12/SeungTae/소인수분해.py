@@ -13,7 +13,7 @@ def solution(n):
         else:
             n //= i     # n은 i로 나눈 정수몫
             factors.add(i) # set factors에 저장
-    if n > 1:   # n이 1보다 크면 소인수 분해 구성원이기 때문에 추가
+    if n > 1:   # n이 1보다 크면 소인수 분해 구성원이기 때문에 추가해야 한다.
         factors.add(n)
     return sorted(list(factors))
 
