@@ -12,6 +12,7 @@ def solution(emergency):
 solution([3, 76, 24])
 
 """
+#
 # for문 하나 덜 쓰는 방법
 
 def solution(emergency):
