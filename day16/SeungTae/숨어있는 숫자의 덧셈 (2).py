@@ -12,3 +12,5 @@ def solution(my_string):
     if num_str:  # 마지막으로 처리되지 않은 숫자가 있다면
         num_sum += int(num_str)  # 숫자를 합산
     return num_sum  # 자연수의 합을 반환
+
+#GPTSOL
